@@ -1,0 +1,98 @@
+<!-- navigation bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="">DIY Music</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button type="button" (click)="searchByBand()" class="btn btn-default"><span class="search_color"><i class="fa fa-search"
+                        aria-hidden="true"></i></span></button>
+        </form>
+    </div>
+</nav>
+
+<!-- main body -->
+<div class="container borders">
+    <div class="row">
+        <div class="col-8 d-flex justify-content-center">
+            <img style="width: 100%;" src="assets/images/logo.jpg" alt="homelogo">
+        </div>
+
+        <div class="col-4">
+            <div class="row">
+                <div class="col-6 img">
+                    <img class="img-wth" (click)="navigateToBandProfile()" src="https://f4.bcbits.com/img/a0627608002_16.jpg" alt="band1">
+                    <div class="overlay">
+                    </div>
+                </div>
+                <div class="col-6 img">
+                    <img class="img-wth" (click)="navigateToBandProfile()" src="https://f4.bcbits.com/img/a1678616322_2.jpg" alt="band2">
+                    <div class="overlay">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-15">
+                <div class="col-6 img">
+                    <img class="img-wth" (click)="navigateToBandProfile()" src="https://f4.bcbits.com/img/a1341265589_16.jpg" alt="band3">
+                    <div class="overlay">
+                    </div>
+                </div>
+                <div class="col-6 img">
+                    <img class="img-wth" (click)="navigateToBandProfile()" src="https://f4.bcbits.com/img/a0712689270_2.jpg" alt="band4">
+                    <div class="overlay">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-15">
+                <div class="col-6 img">
+                    <img class="img-wth" (click)="navigateToBandProfile()" src="https://f4.bcbits.com/img/a2912516090_2.jpg" alt="band5">
+                    <div class="overlay">
+                    </div>
+                </div>
+                <div class="col-6 img">
+                    <img class="img-wth" (click)="navigateToBandProfile()" src="https://f4.bcbits.com/img/a2309481152_2.jpg" alt="band6">
+                    <div class="overlay">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 offset-md-6 txt-align">
+                    <button type="button" (click)="navigateToBandsList()" class="btn btn-link">more...</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <p class="rights">
+        What is the DIY Music Scene? Most of us are familiar with the acronym “DIY,” meaning “do it yourself.” We often see this in the form of crafts, recipes, etc. But what is the DIY music scene? After hearing the term thrown around among musicians, I was
+        able to surmise the general idea of it based on context. But I still found myself wondering, what is the exact definition of DIY music? Well, at a very basic level, one could define a DIY band as one that does all its own writing, recording, and
+        promoting, without the need for a record label middle-man. However, this doesn’t necessarily serve as a complete definition. The DIY music scene is about more than just bands with independence; it’s an entire aesthetic. Once I did some research,
+        I was surprised to learn that DIY is not only decades old, but it is heavily tied to the punk scene of the 1970s and onward, thriving in the mostly underground circuit. DIY as a general principle is associated with the rejection of consumerism,
+        so for the music scene, this means a refusal to work with the mainstream music industry. By doing their own recording, bands are able to avoid working with record labels, and thus have much more freedom in terms of creativity and money. The internet
+        of course has been integral in giving musicians the ability to promote their music without any outside help. Musicians can release their music on sites such as Bandcamp and Soundcloud, allowing them to become their own managers and labels. These
+        facets of refusing the music industry are rather apparent, but one aspect you may not have thought of though is the issue of venues. My exposure to the DIY music scene has been concurrent with my exposure to the “house show,” which opposes the
+        booking of a formal venue. When booking a concert at a commercial venue, a band has many logistics to consider, most of which include additional costs, like paying for a sound guy. But what if a band didn’t have to pay to share their music with
+        a crowd? What if, instead of exchanging logistics and costs with a commercial venue, all a band had to do was exchange a few texts with someone with a house? Well this is where the house show comes in. Music lovers are opening up their living
+        rooms and basements for DIY bands and musicians; the amount of house venues is steadily increasing, and it’s no wonder why. The band doesn’t pay to play, and the audience doesn’t pay to listen; in a way, the house show creates a purer way to share
+        a love of music by eliminating all the commercial aspects of it. Although there are definite perks to working with commercial venues, the appeal of the house show is obvious: upon walking in, you’re greeted with a beer and a house party full of
+        people ready to listen to your music. Though it draws from aspects of punk and anti-consumerism, the DIY scene’s aesthetic is predominantly influenced by an emphasis on community. It’s about people supporting each other in their musical endeavors,
+        often times in a fun and casual way. Due to its somewhat underground nature, you may not hear about DIY bands as much as popular musicians who use large record labels, but keep an eye out for for the next house show near you to check out some
+        awesome music
+    </p>
+</div>
+
+<!-- footer -->
+<footer class="section footer-creative context-dark">
+    <div class="footer-creative-aside ft">
+    </div>
+</footer>

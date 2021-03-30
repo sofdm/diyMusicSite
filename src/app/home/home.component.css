@@ -1,0 +1,40 @@
+.search_color {
+    color: aliceblue;
+}
+
+.ft {
+    background-color: #343a40;
+    position: relative;
+    height: 100px;
+    clear: both;
+}
+
+.row-15 {
+    margin-top: 15px;
+}
+
+.txt-align {
+    text-align: end;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(251, 251, 251, 0.2);
+    cursor: pointer;
+}
+
+.img:hover .overlay {
+    opacity: 1;
+}
+
+.img-wth {
+    width: 100%
+}
